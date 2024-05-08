@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buisness</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'sitestyle.css'%}">
+</head>
+<body>
+
+    <h1>buisness</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="learn.html">Learn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>These sites and videos help me with making these website</h3>
+        <p>https://www.youtube.com/@BroCodez</p>
+        <p>https://docs.djangoproject.com/en/5.0/howto/static-files/</p>
+        <p>https://boxicons.com/?query=lo</p>
+        
+    </main>
+</body>
+</html>

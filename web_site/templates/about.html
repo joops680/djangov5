@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buisness</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'sitestyle.css' %}">
+</head>
+<body>
+
+    <h1>WELCOME</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'learn' %}">Learn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Building a website can be an enjoyable experience for several reasons:</h3>
+        <h1>Creativity</h1>
+            <p>Designing a website allows you to unleash your creativity. 
+            You can choose colors, fonts, layouts, and images that reflect your style and vision.</p>
+        <h1>Problem Solving</h1>
+            <p>Building a website often involves solving technical challenges, 
+            such as coding issues or design constraints. Overcoming these challenges can be satisfying and rewarding.</p>
+        <h1>Learning Opportunity</h1>
+            <p>Website development is a constantly evolving field, 
+            and building a website provides an opportunity to learn new technologies, frameworks,and techniques.</p>
+        <h1>Seeing Your Work Come to Life</h1>
+            <p>There's a sense of accomplishment in seeing your ideas come to life on the screen. 
+            Watching a website take shape from concept to completion can be incredibly rewarding.</p>
+    </main>
+</body>
+</html>
