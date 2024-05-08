@@ -27,8 +27,8 @@ def authenticate_user(request):
     )
     
 
-def user_register(request):
-    return render(request, 'register.html')
+#def user_register(request):
+    #return render(request, 'register.html')
 
 def home(request):
     return render(request, 'return_home.html', 
