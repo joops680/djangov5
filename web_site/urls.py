@@ -15,7 +15,7 @@ user_auth: Includes URL patterns for views provided by the 'user_auth' app.
 """
 urlpatterns = [ 
     path('', views.login_user, name='login_user'),
-    path('user_register/', views.user_register, name='user_register'),
+    #path('user_register/', views.user_register, name='user_register'),
     path("home/", views.home, name="home"),
     path("about/", views.about, name="about"),
     path("learn/", views.learn, name="learn"),
